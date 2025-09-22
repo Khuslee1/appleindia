@@ -260,23 +260,26 @@ h1 {
 
 .scroll {
   height: 668px;
-  width: 3782px;
-  position: absolute;
+  width: 100vw;
+  position: relative;
   gap: 16px;
   display: flex;
   flex-direction: row;
   top: 3972px;
+  white-space: nowrap;
   padding-left: 10px;
   padding-right: 10px;
-  overflow: auto;
-  white-space: nowrap;
+  animation: autoscroll 12s linear infinite;
+  transform: translate3d();
 }
 
-.imcon {
-  width: 64%;
-  height: 668px;
+@keyframes autoscroll {
+  100% {
+    transform: translateX(-3682px);
+  }
 }
-.stream {
+
+/* .stream {
   position: absolute;
   top: 580px;
   left: 70px;
@@ -305,4 +308,4 @@ h1 {
 .movie span {
   font-weight: 700;
   text-shadow: 0px 0px 5px 0px #00000099;
-}
+} */
