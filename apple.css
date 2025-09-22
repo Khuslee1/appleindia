@@ -266,17 +266,98 @@ h1 {
   display: flex;
   flex-direction: row;
   top: 3972px;
-  white-space: nowrap;
   padding-left: 10px;
   padding-right: 10px;
-  animation: autoscroll 12s linear infinite;
-  transform: translate3d();
+  animation: autoscroll 20s linear infinite;
 }
 
 @keyframes autoscroll {
   100% {
-    transform: translateX(-3682px);
+    transform: translateX(-3673px);
   }
+}
+
+/* .scroll:hover {
+ overflow-x: auto; 
+ overflow-y: hidden; 
+ white-space: nowrap; 
+ animation-play-state: paused;
+} */
+
+.runner {
+  height: 8px;
+  width: 220px;
+  position: absolute;
+  top: 4648px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.circle {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: gray;
+}
+
+.circle:first-child {
+  background-color: #1d1d1f;
+}
+
+.scroll2 {
+  height: 292px;
+  width: 100vw;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 4662px;
+  border-color: #000000;
+}
+
+.container {
+  width:417px;
+  height:236px;
+  position: relative;
+  
+}
+
+.container:nth-child(2) {
+  background: #1B2632;
+  display: flex;
+  align-items: center;
+}
+
+.container:nth-child(5) {
+  background: #EBB799;
+    display: flex;
+  align-items: center;
+}
+
+.logo1 {
+  position: absolute;
+  top: 199px;
+}
+
+.logo1:nth-child(1) {
+left: 304px;
+}
+
+.logo1:nth-child(2) {
+  left: 323px;
+}
+
+.logo1:nth-child(3) {
+  left: 314px;
+}
+
+.logo1:nth-child(4) {
+  left: 304px;
+}
+
+.logo1:nth-child(5) {
+  left: 323px;
 }
 
 /* .stream {
