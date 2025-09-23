@@ -258,31 +258,22 @@ h1 {
   top: 509px;
 }
 
-.scroll {
-  height: 668px;
-  width: 100vw;
+.scrollcont {
   position: relative;
-  gap: 16px;
-  display: flex;
-  flex-direction: row;
+  height: 668px;
   top: 3972px;
-  padding-left: 10px;
-  padding-right: 10px;
-  animation: autoscroll 20s linear infinite;
+  width: 100vw;
+  overflow-y: hidden;
+  overflow-x: auto;
 }
 
-@keyframes autoscroll {
-  100% {
-    transform: translateX(-3673px);
-  }
+.scroll {
+  height: 100%;
+  width: fit-content;
+  display: flex;
+  gap: 16px;
+  flex-direction: row;
 }
-
-/* .scroll:hover {
- overflow-x: auto; 
- overflow-y: hidden; 
- white-space: nowrap; 
- animation-play-state: paused;
-} */
 
 .runner {
   height: 8px;
@@ -304,35 +295,56 @@ h1 {
 .circle:first-child {
   background-color: #1d1d1f;
 }
-
-.scroll2 {
+.scroll_container {
   height: 292px;
+  top: 4662px;
+  position: absolute;
+  left: 0;
   width: 100vw;
+  overflow: hidden;
+}
+.scroll2 {
+  height: 100%;
+  width: fit-content;
   gap: 10px;
   display: flex;
-  flex-direction: row;
-  position: absolute;
-  top: 4662px;
-  border-color: #000000;
+  animation: autoscroll1 30s linear infinite;
 }
 
 .container {
-  width:417px;
-  height:236px;
+  width: 417px !important;
+  height: 236px !important;
   position: relative;
-  
+  display: flex;
 }
 
 .container:nth-child(2) {
-  background: #1B2632;
+  background: #1b2632 !important;
+  display: flex;
+  align-items: center;
+}
+.container:nth-child(7) {
+  background: #1b2632 !important;
   display: flex;
   align-items: center;
 }
 
 .container:nth-child(5) {
-  background: #EBB799;
-    display: flex;
+  background: #ebb799 !important;
+  display: flex;
   align-items: center;
+}
+.container:nth-child(10) {
+  background: #ebb799 !important;
+  display: flex;
+  align-items: center;
+}
+
+.smal {
+  position: absolute;
+  border-radius: 8px;
+  left: 15px;
+  aspect-ratio: 196/196;
 }
 
 .logo1 {
@@ -341,7 +353,7 @@ h1 {
 }
 
 .logo1:nth-child(1) {
-left: 304px;
+  left: 304px;
 }
 
 .logo1:nth-child(2) {
@@ -360,7 +372,35 @@ left: 304px;
   left: 323px;
 }
 
-/* .stream {
+@keyframes autoscroll1 {
+  100% {
+    transform: translateX(-2137px);
+  }
+}
+
+.maichi {
+  position: absolute;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: left;
+  left: 15px;
+  top: 198px;
+  color: #ffffff;
+}
+
+.musec {
+  top: 109px;
+  left: 226px;
+}
+
+.cant {
+  height: 668px;
+  width: 1250px;
+  position: relative;
+}
+.stream {
   position: absolute;
   top: 580px;
   left: 70px;
@@ -389,4 +429,35 @@ left: 304px;
 .movie span {
   font-weight: 700;
   text-shadow: 0px 0px 5px 0px #00000099;
-} */
+}
+button {
+  display: none;
+  position: absolute;
+  background-color: white;
+  height: 33px;
+  width: 123px;
+  border-radius: 999px;
+  align-self: center;
+  border: white;
+  left: 147px;
+  z-index: 2;
+}
+.scroll2:hover {
+  animation-play-state: paused;
+  transition: 0.5s;
+}
+
+.scroll2 .container:hover button {
+  display: block;
+  transition: 1s;
+}
+
+.scroll2:has(.container:hover) .container {
+  filter: grayscale(100%);
+  transition: 1s;
+}
+
+.scroll2:has(.container:hover) .container:hover {
+  filter: brightness(50%);
+  transition: 1s;
+}
