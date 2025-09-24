@@ -461,3 +461,9 @@ button {
   filter: brightness(50%);
   transition: 1s;
 }
+
+.oor {
+  background: #ffffff;
+  height: 500px;
+  width: 313px;
+}
