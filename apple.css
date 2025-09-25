@@ -76,7 +76,7 @@ p {
 }
 .text {
   display: flex;
-  width: 100%;
+  width: 1120px;
   height: 108px;
   gap: 16px;
   flex-direction: column;

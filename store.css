@@ -194,7 +194,7 @@ h1:first-child {
 .text {
   display: flex;
   height: 34px;
-
+  width: 832px;
   gap: 4px;
 }
 
@@ -220,12 +220,16 @@ h4 {
   display: flex;
   flex-direction: row;
   gap: 20px;
+  overflow-x: scroll;
+  overflow-y: visible;
 }
 
 .zurag {
   height: 500px;
   width: 480px;
+  min-width: 480px;
   border-radius: 18px;
+  box-shadow: 2px 4px 12px 0px #00000014;
 }
 
 .garchig {
@@ -268,10 +272,12 @@ h4 {
   flex-direction: column;
   height: 500px !important;
   width: 313px !important;
+  min-width: 313px;
   background: #ffffff;
   padding-top: 71px;
   align-items: center;
   border-radius: 18px;
+  box-shadow: 2px 4px 12px 0px #00000014;
 }
 
 .ongo {
@@ -298,6 +304,7 @@ h5 {
 .ehlel {
   height: 500px;
   width: 400px;
+  min-width: 400px;
 }
 
 .medeelel {
@@ -335,4 +342,138 @@ h6 {
   font-weight: 400;
   font-size: 14px;
   color: #1d1d1f;
+}
+
+.textcontainer {
+  display: flex;
+  gap: 20px;
+}
+.bigger {
+  position: relative;
+  height: 500px;
+  width: 480px;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px 0px #00000014;
+}
+
+.bichig {
+  position: absolute;
+  top: 50px;
+  left: 30px;
+}
+.bichig p {
+  font-size: 26px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  text-align: left;
+}
+.nergui {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 313px;
+  gap: 20px;
+}
+
+.jijgee {
+  position: relative;
+  height: 240px;
+  width: 313px;
+  border-radius: 18px;
+  background-color: #ffffff;
+  box-shadow: 2px 4px 12px 0px #00000014;
+}
+
+.jijge {
+  top: 82px;
+  left: 32px;
+  text-align: left;
+}
+
+.jijge p {
+  font-size: 22px;
+}
+
+.bigger span {
+  position: absolute;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: #6e6e73;
+  top: 31px;
+  left: 30px;
+}
+
+.gai {
+  position: absolute;
+  top: 130px;
+  left: 30px;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 400px;
+  text-align: start;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.bigger:nth-child(2) span {
+  color: #ffffff;
+}
+
+.wrap {
+  flex-wrap: wrap;
+  height: 66px;
+}
+
+.last {
+  position: absolute;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: #6e6e73;
+  top: 31px;
+  left: 30px;
+}
+
+.ehlel {
+  position: relative;
+}
+.lust {
+  top: 158px;
+}
+
+.lastsection {
+  height: 96px;
+  width: 100%;
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  padding-left: 140px;
+  padding-right: 140px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.quicklinks {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  gap: 12px;
+}
+
+.boxs {
+  height: 40px;
+  border: solid black 1px;
+  border-radius: 999px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  padding-left: 12px;
+  padding-right: 12px;
 }
