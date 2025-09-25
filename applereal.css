@@ -2,13 +2,7 @@
   box-sizing: border-box;
   margin: 0px;
 }
-body {
-  width: 100vw;
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
 .header1 {
   position: fixed;
   display: flex;
@@ -54,14 +48,49 @@ p {
 .header2 p {
   font-size: 14px;
 }
-.image {
-  position: absolute;
-  width: 100vw;
-  top: 96px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
+
+.tom {
+    width: 100vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top:96px;
+    gap: 12px;
+}
+.first {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+}
+.box1 {
+position: relative;
+display: flex;
+justify-content: center;
+width: 100%;
+height: 692px;
+
+}
+
+.first .box1:nth-child(1){
+    background-image: url("ip16.png");
+        background-repeat: no-repeat;
+        background-position: center; 
+        background-size: cover;
+}
+
+.first .box1:nth-child(2){
+    background-image: url("ip1.png");;
+    background-repeat: no-repeat;
+        background-position: center; 
+        background-size: cover;
+}
+
+.first .box1:nth-child(3){
+    background-image: url("gift.png");
+    background-repeat: no-repeat;
+        background-position: center; 
+        background-size: cover;
 }
 
 .textcontainer {
@@ -133,51 +162,37 @@ p {
   justify-content: center;
   align-items: center;
 }
-.image .textcontainer:nth-child(4) {
-  top: 757px;
-}
-
-.image .textcontainer:nth-child(6) {
-  top: 1850px;
-}
 
 .text-black {
   color: #000000;
+  top:446px;
 }
 
 .text-white {
   color: white;
 }
 
-.only {
-  width: 123px;
-}
-
 .second {
-  position: absolute;
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  top: 2202px;
-  gap: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
-.box {
-  height: 580px;
-  width: 100%;
-  display: flex;
-  gap: 10px;
+.box2 {
+    width: 100%;
+    height: 580px;
+    display: flex;
+    gap:12px;
+    justify-content: center;
 }
 
-.hairtsag {
-  position: absolute;
-  width: 50%;
-  height: 580px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+.inbox {
+    position: relative;
+    display: flex;
+width: 942px;
+height: 580px;
+justify-content: center;
 }
 
 .dotor {
@@ -203,17 +218,17 @@ p {
   gap: 5px;
 }
 
-.get {
-  height: 40px;
-  width: 167px;
+
+.tex {
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  justify-content: space-between;
 }
 
 .small {
   height: 40px;
-}
-
-.left {
-  left: 50%;
 }
 
 h1 {
@@ -221,6 +236,11 @@ h1 {
   font-size: 36px;
   height: 44px;
   font-weight: 600;
+}
+
+.get {
+  height: 40px;
+  width: 167px;
 }
 
 .bottom {
@@ -258,10 +278,51 @@ h1 {
   top: 509px;
 }
 
+.box2:nth-child(1) .inbox:nth-child(1) {
+     background-image: url("Figure1.png");
+        background-repeat: no-repeat;
+        background-position: center; 
+        background-size: cover;
+}
+
+.box2:nth-child(1) .inbox:nth-child(2) {
+     background-image: url("Figure2.png");
+        background-repeat: no-repeat;
+        background-position: center; 
+        background-size: cover;
+}
+
+.box2:nth-child(2) .inbox:nth-child(1) {
+     background-image: url("Figure3.png");
+        background-repeat: no-repeat;
+        background-position: center; 
+        background-size: cover;
+}
+
+.box2:nth-child(2) .inbox:nth-child(2) {
+     background-image: url("Figure4.png");
+        background-repeat: no-repeat;
+        background-position: center; 
+        background-size: cover;
+}
+
+.box2:nth-child(3) .inbox:nth-child(1) {
+     background-image: url("Figure5.png");
+        background-repeat: no-repeat;
+        background-position: center; 
+        background-size: cover;
+}
+
+.box2:nth-child(3) .inbox:nth-child(2) {
+     background-image: url("Figure6.png");
+        background-repeat: no-repeat;
+        background-position: center; 
+        background-size: cover;
+}
+
 .scrollcont {
   position: relative;
   height: 668px;
-  top: 3972px;
   width: 100vw;
   overflow-y: hidden;
   overflow-x: auto;
@@ -278,11 +339,11 @@ h1 {
 .runner {
   height: 8px;
   width: 220px;
-  position: absolute;
-  top: 4648px;
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+align-self: center;
 }
 
 .circle {
@@ -297,8 +358,7 @@ h1 {
 }
 .scroll_container {
   height: 292px;
-  top: 4662px;
-  position: absolute;
+  position: relative;
   left: 0;
   width: 100vw;
   overflow: hidden;
@@ -466,4 +526,8 @@ button {
   background: #ffffff;
   height: 500px;
   width: 313px;
+}
+
+.figure {
+  object-fit: cover;
 }
