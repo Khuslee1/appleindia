@@ -43,6 +43,8 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .header2 p {
@@ -50,52 +52,51 @@ p {
 }
 
 .tom {
-    width: 100vw;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    top:96px;
-    gap: 12px;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: 96px;
+  gap: 12px;
 }
 .first {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap:12px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 .box1 {
-position: relative;
-display: flex;
-justify-content: center;
-width: 100%;
-height: 692px;
-
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 692px;
 }
 
-.first .box1:nth-child(1){
-    background-image: url("ip16.png");
-        background-repeat: no-repeat;
-        background-position: center; 
-        background-size: cover;
+.first .box1:nth-child(1) {
+  background-image: url("ip16.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.first .box1:nth-child(2){
-    background-image: url("ip1.png");;
-    background-repeat: no-repeat;
-        background-position: center; 
-        background-size: cover;
+.first .box1:nth-child(2) {
+  background-image: url("ip1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.first .box1:nth-child(3){
-    background-image: url("gift.png");
-    background-repeat: no-repeat;
-        background-position: center; 
-        background-size: cover;
+.first .box1:nth-child(3) {
+  background-image: url("gift.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .textcontainer {
   position: absolute;
-  width: 405px;
+  width: 100%;
   height: 172px;
   top: 55px;
   display: flex;
@@ -105,7 +106,7 @@ height: 692px;
 }
 .text {
   display: flex;
-  width: 1120px;
+  width: 100%;
   height: 108px;
   gap: 16px;
   flex-direction: column;
@@ -165,7 +166,7 @@ height: 692px;
 
 .text-black {
   color: #000000;
-  top:446px;
+  top: 446px;
 }
 
 .text-white {
@@ -173,31 +174,30 @@ height: 692px;
 }
 
 .second {
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .box2 {
-    width: 100%;
-    height: 580px;
-    display: flex;
-    gap:12px;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
 }
 
 .inbox {
-    position: relative;
-    display: flex;
-width: 942px;
-height: 580px;
-justify-content: center;
+  position: relative;
+  display: flex;
+  width: 50%;
+  height: 580px;
+  justify-content: center;
 }
 
 .dotor {
   position: absolute;
-  width: 430px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -217,7 +217,6 @@ justify-content: center;
   flex-direction: column;
   gap: 5px;
 }
-
 
 .tex {
   height: 44px;
@@ -279,50 +278,49 @@ h1 {
 }
 
 .box2:nth-child(1) .inbox:nth-child(1) {
-     background-image: url("Figure1.png");
-        background-repeat: no-repeat;
-        background-position: center; 
-        background-size: cover;
+  background-image: url("Figure1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .box2:nth-child(1) .inbox:nth-child(2) {
-     background-image: url("Figure2.png");
-        background-repeat: no-repeat;
-        background-position: center; 
-        background-size: cover;
+  background-image: url("Figure2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .box2:nth-child(2) .inbox:nth-child(1) {
-     background-image: url("Figure3.png");
-        background-repeat: no-repeat;
-        background-position: center; 
-        background-size: cover;
+  background-image: url("Figure3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .box2:nth-child(2) .inbox:nth-child(2) {
-     background-image: url("Figure4.png");
-        background-repeat: no-repeat;
-        background-position: center; 
-        background-size: cover;
+  background-image: url("Figure4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .box2:nth-child(3) .inbox:nth-child(1) {
-     background-image: url("Figure5.png");
-        background-repeat: no-repeat;
-        background-position: center; 
-        background-size: cover;
+  background-image: url("Figure5.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .box2:nth-child(3) .inbox:nth-child(2) {
-     background-image: url("Figure6.png");
-        background-repeat: no-repeat;
-        background-position: center; 
-        background-size: cover;
+  background-image: url("Figure6.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .scrollcont {
   position: relative;
-  height: 668px;
   width: 100vw;
   overflow-y: hidden;
   overflow-x: auto;
@@ -343,7 +341,7 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-align-self: center;
+  align-self: center;
 }
 
 .circle {
@@ -372,8 +370,8 @@ align-self: center;
 }
 
 .container {
-  width: 417px !important;
-  height: 236px !important;
+  width: 417px;
+  height: 236px;
   position: relative;
   display: flex;
 }
@@ -457,7 +455,7 @@ align-self: center;
 
 .cant {
   height: 668px;
-  width: 1250px;
+  width: 80vw;
   position: relative;
 }
 .stream {
@@ -530,4 +528,294 @@ button {
 
 .figure {
   object-fit: cover;
+}
+.logomi {
+  display: flex;
+  gap: 24px;
+}
+
+.logomi .logocont:last-child {
+  display: none;
+}
+
+.playbutton {
+  position: absolute;
+  background: #d2d2d7;
+  border-radius: 12px;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 255px;
+  right: 20px;
+}
+
+.hidden {
+  display: none;
+  object-fit: cover;
+}
+.yes {
+  object-fit: cover;
+}
+
+.fit {
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .header1 p {
+    display: none;
+  }
+  .logomi .logocont:last-child {
+    display: flex;
+  }
+
+  .header1 {
+    justify-content: space-between;
+  }
+
+  .cant {
+    height: 368px;
+    width: 689px;
+  }
+  .stream {
+    top: 305px;
+    left: 30px;
+    height: 36px;
+    width: 108px;
+    font-size: 14px;
+  }
+
+  .movie {
+    top: 312px;
+    left: 156px;
+  }
+
+  .container {
+    width: 286px;
+    height: 161px;
+  }
+
+  .container .smal {
+    height: 121px;
+    width: 121px;
+  }
+
+  .maichi {
+    top: 176px;
+    left: 5px;
+    color: black;
+  }
+
+  .logo1 {
+    top: 135.15px;
+    height: 10.84px;
+  }
+
+  .logo1:nth-child(1) {
+    left: 223px;
+    width: 61px;
+  }
+
+  .logo1:nth-child(2) {
+    left: 223px;
+    width: 46px;
+  }
+
+  .logo1:nth-child(3) {
+    left: 214px;
+    width: 46px;
+  }
+
+  .logo1:nth-child(4) {
+    left: 204px;
+    width: 46px;
+  }
+
+  .logo1:nth-child(5) {
+    left: 223px;
+    width: 46px;
+  }
+  .musec {
+    top: 176px;
+    left: 5px;
+  }
+
+  button {
+    height: 25px;
+    width: 100px;
+    left: 100px;
+  }
+
+  .scroll_container {
+    height: 250px;
+  }
+  .playbutton {
+    top: 210px;
+  }
+}
+
+@media (max-width: 390px) {
+  .first .box1:nth-child(1) {
+    background-image: url("probosoo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .first .box1:nth-child(2) {
+    background-image: url("bosoo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .box1 {
+    height: 500px;
+    width: 100vw;
+  }
+
+  .box1:nth-child(1) .textcontainer:nth-child(1) {
+    top: 350px;
+  }
+
+  .box1:nth-child(3) .textcontainer:nth-child(1) {
+    top: 350px;
+  }
+
+  .text p:first-child {
+    font-size: 30px;
+  }
+
+  .text p:last-child {
+    font-size: 18px;
+  }
+
+  .text {
+    height: 62px;
+    width: 241px;
+    gap: 4px;
+  }
+
+  .textcontainer {
+    gap: 16px;
+  }
+
+  .learn {
+    height: 36px;
+    width: 107px;
+  }
+
+  .buy {
+    width: 66px;
+    height: 36px;
+  }
+
+  .text {
+    width: 300px;
+  }
+
+  .box2 {
+    flex-direction: column;
+  }
+  .inbox {
+    width: 100%;
+    height: 500px;
+  }
+
+  .get {
+    width: 150px;
+  }
+
+  .dotor {
+    top: 46px;
+  }
+
+  .bottom {
+    top: 350px;
+  }
+
+  .cant {
+    height: 495px;
+    width: 274px;
+  }
+
+  .yes {
+    display: none;
+  }
+  .hidden {
+    display: block;
+  }
+
+  .movie {
+    display: none;
+  }
+  .stream {
+    top: 420px;
+    left: 80px;
+  }
+
+  .container {
+    width: 238px;
+    height: 134px;
+  }
+
+  .container .smal {
+    height: 114px;
+    width: 114px;
+  }
+
+  .maichi {
+    top: 144px;
+    left: 5px;
+    color: black;
+  }
+
+  .logo1 {
+    top: 113.2px;
+    height: 9.67px;
+  }
+
+  .logo1:nth-child(1) {
+    left: 157px;
+    width: 61px;
+  }
+
+  .logo1:nth-child(2) {
+    left: 177px;
+    width: 46px;
+  }
+
+  .logo1:nth-child(3) {
+    left: 177px;
+    width: 46px;
+  }
+
+  .logo1:nth-child(4) {
+    left: 177px;
+    width: 46px;
+  }
+
+  .logo1:nth-child(5) {
+    left: 157px;
+    width: 46px;
+  }
+  .musec {
+    top: 144px;
+    left: 5px;
+  }
+
+  button {
+    height: 20px;
+    width: 80px;
+    left: 80px;
+  }
+
+  .scroll_container {
+    height: 220px;
+  }
+  .playbutton {
+    top: 190px;
+  }
 }
