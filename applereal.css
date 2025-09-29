@@ -563,6 +563,15 @@ button {
   object-fit: cover;
 }
 
+a {
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
 @media (max-width: 768px) {
   .header1 p {
     display: none;
@@ -653,6 +662,9 @@ button {
   }
   .playbutton {
     top: 210px;
+  }
+  a {
+    display: none;
   }
 }
 
@@ -817,5 +829,9 @@ button {
   }
   .playbutton {
     top: 190px;
+  }
+
+  a {
+    display: none;
   }
 }

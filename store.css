@@ -17,6 +17,9 @@
   justify-content: center;
   z-index: 1;
 }
+.amage {
+  height: 30px;
+}
 
 .logocont {
   height: 44px;
